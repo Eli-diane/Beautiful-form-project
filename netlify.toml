@@ -1,0 +1,10 @@
+# Este arquivo é como um "manual" para a Netlify.
+# Ele diz à plataforma como "montar" e "publicar" o site e suas "funcoes".
+
+[build]
+  publish = "."
+  functions = ".netlify/functions"
+
+[dev]
+  framework = "#static"   
+  
